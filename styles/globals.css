@@ -1,0 +1,45 @@
+body{
+  color: #D8D8D8;
+  background-color: #000000;
+}
+
+.prediction{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.predicted_word{
+  text-align: center;
+}
+
+.predicted_letter{
+  text-align: center;
+}
+
+.text-words {
+  font-size: 1vw;
+}
+.text-letter {
+  font-size: 3vw;
+}
+.text-heading {
+  font-size: 7vw;
+}
+/* .text-fps {
+  font-size: 3vw;
+} */
+@media screen and (min-width: 800px) {
+  .text-words {
+    font-size: 64px;
+  }
+  .text-letter {
+    font-size: 40px;
+  }
+  .text-heading {
+    font-size: 80px;
+  }
+  /* .text-fps {
+    font-size: 24px;
+  } */
+}
